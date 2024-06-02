@@ -25,6 +25,8 @@ Awesome!
 # Contribute
 Please contribute I don't know how to code
 
+[![All Contributors](https://img.shields.io/github/all-contributors/SmugTheKiler/minecraft-coordinates-app?color=ee8449&style=flat-square)](#contributors)
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
