@@ -24,3 +24,7 @@ Awesome!
 
 # Contribute
 Please contribute I don't know how to code
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=SmugTheKiler/minecraft-coordinates-app&type=Date)](https://star-history.com/#SmugTheKiler/minecraft-coordinates-app&Date)
