@@ -1,0 +1,129 @@
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Title styles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3f5d9b; /* Accent color */
+}
+
+/* Navigation link styles */
+a {
+    color: #3f5d9b; /* Accent color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c54a7c; /* Accent color */
+}
+
+/* Form input styles */
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Button styles */
+button {
+    background-color: #3f5d9b; /* Accent color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c54a7c; /* Accent color */
+}
+
+/* Error message styles */
+#errorField {
+    color: #c54a7c; /* Accent color */
+    margin-bottom: 20px;
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* List item styles */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    color: #fff;
+}
+
+/* Title within list item */
+.title {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Content within list item */
+.content {
+    color: #ccc;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+/* Button within list item */
+li button {
+    margin-left: 20px;
+}
+
+.bottom-right-info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+    color: #ccc;
+}
+
+.bottom-right-info a {
+    color: #3f5d9b; /* Accent color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.bottom-right-info a:hover {
+    color: #c54a7c; /* Accent color */
+}

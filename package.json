@@ -1,0 +1,38 @@
+{
+  "name": "minecraft-locations-app",
+  "version": "1.0.0",
+  "description": "Track interesting locations in your minecraft world easily!",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "SmugTheKiler",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  },
+  "files": [
+    "src/**/*",
+    "main.js",
+    "preload.js",
+    "locations"
+  ],
+  "keywords": [ "minecraft", "tracking", "notes", "games" ],
+  "author": "SmugTheKiler",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.9",
+    "electron-builder": "^24.13.3"
+  }
+}
