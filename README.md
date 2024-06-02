@@ -18,9 +18,9 @@ Awesome!
 
 # PREVIEW
 
-![Home-page](image.png)
+![Home-page](./preview-images/image.png)
 
-![Location-tab](image-1.png)
+![Location-tab](./preview-images/image-1.png)
 
 # Contribute
 Please contribute I don't know how to code
