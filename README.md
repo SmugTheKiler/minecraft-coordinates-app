@@ -25,6 +25,15 @@ Awesome!
 # Contribute
 Please contribute I don't know how to code
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=SmugTheKiler/minecraft-coordinates-app&type=Date)](https://star-history.com/#SmugTheKiler/minecraft-coordinates-app&Date)
